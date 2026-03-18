@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+.flex-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+}
+
+.flex-bar > a {
+    padding: 2vh;
+}
+
+.flex-bar > a:hover {
+    cursor: pointer;
+}
+
+.flex-bar > a:not([href]) {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+    padding: 1vh 4vh 0;
+}
+
+main {
+    padding: 4vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1.5vh;
+}
+
+td.t-feature {
+    font-weight: bold;
+    border-right: 1px solid black;
+}
+
+tr {
+    background-color: rgb(210, 242, 255);
+}
+
+tr.alt {
+    background-color: rgb(163, 206, 222)
+}

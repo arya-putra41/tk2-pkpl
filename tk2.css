@@ -10,7 +10,7 @@
 }
 
 h1 {
-    margin: 0;
+    margin: 2vh 0;
     padding: 2vh 4vh; 
 }
 
@@ -28,7 +28,6 @@ h1 {
 
 .user-name {
     font-weight: bold;
-    font-family: 'Comic Sans MS', sans-serif;
 }
 
 .logout-btn {
